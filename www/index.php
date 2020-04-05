@@ -9,6 +9,6 @@
 	<head>
 	</head>
 	<body>
-		<h1><?= 5//$twig->render('header.html', array('header' => 'Composer')) ?> header</h1>
+		<h1><?= $twig->render('header.html', array('header' => 'Composer')) ?> header</h1>
 	</body>
 </html>
